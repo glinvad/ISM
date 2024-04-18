@@ -1,0 +1,32 @@
+digraph {
+	graph [dpi=600 nodesep=0.5 rankdir=B ratio=1 size="12,12"]
+	node [fontsize=12]
+	"Topic title 1"
+	"Topic title 2"
+	"Topic title 3"
+	"Topic title 4"
+	"Topic title 5"
+	"Topic title 6"
+	"Topic title 7"
+	"Topic title 1" -> "Topic title 2" [arrowhead=vee color=black]
+	"Topic title 1" -> "Topic title 4" [arrowhead=vee color=black]
+	"Topic title 1" -> "Topic title 5" [arrowhead=vee color=black]
+	"Topic title 2" -> "Topic title 1" [arrowhead=vee color=black]
+	"Topic title 2" -> "Topic title 3" [arrowhead=vee color=black]
+	"Topic title 2" -> "Topic title 4" [arrowhead=vee color=black]
+	"Topic title 3" -> "Topic title 2" [arrowhead=vee color=black]
+	"Topic title 3" -> "Topic title 4" [arrowhead=vee color=black]
+	"Topic title 3" -> "Topic title 5" [arrowhead=vee color=black]
+	"Topic title 3" -> "Topic title 6" [arrowhead=vee color=black]
+	"Topic title 3" -> "Topic title 7" [arrowhead=vee color=black]
+	"Topic title 4" -> "Topic title 1" [arrowhead=vee color=black]
+	"Topic title 4" -> "Topic title 2" [arrowhead=vee color=black]
+	"Topic title 4" -> "Topic title 3" [arrowhead=vee color=black]
+	"Topic title 5" -> "Topic title 1" [arrowhead=vee color=black]
+	"Topic title 5" -> "Topic title 3" [arrowhead=vee color=black]
+	"Topic title 5" -> "Topic title 7" [arrowhead=vee color=black]
+	"Topic title 6" -> "Topic title 3" [arrowhead=vee color=black]
+	"Topic title 7" -> "Topic title 3" [arrowhead=vee color=black]
+	"Topic title 7" -> "Topic title 5" [arrowhead=vee color=black]
+	"Topic title 7" -> "Topic title 7" [arrowhead=vee color=black]
+}
